@@ -33,11 +33,20 @@
     border-radius: 5px;
     font-size: 1rem;
     padding: 0.5rem;
+    cursor: pointer;
+}
+
+.description-container {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.description-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .description {
     font-size: 2rem;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 2rem;
 }

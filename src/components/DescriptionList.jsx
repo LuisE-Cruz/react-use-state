@@ -1,8 +1,11 @@
 export default function DescriptionList(props) {
 
-    const { description } = props.language;
+    const { title, description } = props.language;
 
     return (
-        <p className="description">{description}</p>
+        <div className="description-container">
+            <h2 className="description-title">{title}</h2>
+            <p className="description">{description}</p>
+        </div>
     )
 }
