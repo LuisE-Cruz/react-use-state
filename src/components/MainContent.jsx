@@ -1,5 +1,5 @@
 import ButtonList from "./ButtonList"
-// import DescriptionList from "./DescriptionList"
+import DescriptionList from "./DescriptionList"
 import languages from '../assets/languages'
 
 
@@ -14,12 +14,25 @@ export default function MainContent() {
         ))
     }
 
+    function DescriptionRender() {
+        return languages.map((language) => (
+            <DescriptionList
+                key={language.id}
+                language={language} />
+        ))
+    }
+
     return (
 
         <section className="main">
+
             <div className="btn-container">
+
                 {ButtonRender()}
+
             </div>
+
+            {DescriptionRender()}
 
         </section>
 

@@ -12,7 +12,32 @@
     padding-top: 1rem;
 }
 
+/* Main */
+
 .main {
     width: 90%;
     margin: 0 auto;
+}
+
+.btn-container {
+    display: flex;
+    gap: 2rem;
+    margin: 1rem;
+
+}
+
+.btn {
+    color: white;
+    background-color: #0D6EFD;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.description {
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2rem;
 }
