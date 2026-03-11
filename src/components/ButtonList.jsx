@@ -1,8 +1,9 @@
 export default function ButtonList(props) {
 
     const { title } = props.language;
+    const { onClick, isActive } = props
 
     return (
-        <button className="btn">{title}</button>
+        <button onClick={onClick} className={`btn ${isActive ? "active" : ""}`}>{title}</button>
     )
 }

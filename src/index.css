@@ -36,9 +36,13 @@
     cursor: pointer;
 }
 
+.btn:focus {
+    transition: 0.5s;
+    background-color: rgb(255, 193, 8);
+}
+
 .description-container {
-    border: 2px solid black;
-    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(70 68 68 / 0.5);
     padding: 2rem;
 }
 
